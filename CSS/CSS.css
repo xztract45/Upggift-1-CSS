@@ -1,0 +1,48 @@
+body {
+	background-color: lightgreen;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+	font-family: Georgia;
+	font-style: italic; /* Cursive */
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.3); /* horizontal-shadow vertical-shadow blur color(red, green, blue, opacity) */
+	text-align: center;
+}
+
+nav{
+	float: left;
+	margin: 20px 0 0 90px;
+}
+
+nav a{
+	color:black;
+}
+
+nav a:hover{ /* How it looks when you hover with muose */
+	color:blue;
+}
+
+#current{ 
+	text-decoration:underline;	
+}
+
+.navLink{
+	position:relative;
+}
+
+.container{
+	position:right;
+	width: 78%;
+	margin: -306px 0px 0px 260px; /* top right bottom left */
+	border: 3px black solid; /* border-width border-color border-style*/
+	border-radius: 20px;
+}
+
+.right{
+		position:right;
+	width: 15%;
+	height: 300px;
+	margin: 19px 0 0px 27px; /* top right bottom left */
+	border: 3px black solid; /* border-width border-color border-style*/
+	border-radius: 20px;
+}
