@@ -35,7 +35,7 @@ nav a:hover{ /* How it looks when you hover with muose */
 }
 
 .container{
-
+position:relative;
 
 	width: 1050px;
 	margin: 19px 0px 0px 260px; /* top right bottom left */
@@ -49,10 +49,12 @@ nav a:hover{ /* How it looks when you hover with muose */
 	float:left;
 	clear:left;
 	width: 195px;
-	height: 289px;
+	height: 288px;
 	margin: 19px 0 0px 27px; /* top right bottom left */
 	border: 3px #00FFFF solid; /* border-width border-color border-style*/
 	border-radius: 20px;
+		background-image: url("GIF.gif");
+	background-size: 195px 288px;
 }
 
 .background{
@@ -60,5 +62,3 @@ nav a:hover{ /* How it looks when you hover with muose */
 	background-size: cover;
 	background-repeat: no-repeat;
 } 
-.gif{
-}
