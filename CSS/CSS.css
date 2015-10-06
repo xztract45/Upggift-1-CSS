@@ -11,15 +11,19 @@ h1,h2,h3,h4,h5,h6,p{
 
 nav{
 	float: left;
-	margin: 20px 0 0 90px;
+		width: 195px;
+	height: 265px;
+	margin: 0px 0px 0px 27px; /* top right bottom left */
+	border: 3px #00FFFF solid; /* border-width border-color border-style*/
+	border-radius: 20px;
 }
 
 nav a{
-	color:black;
+	color:#00FFFF;
 }
 
 nav a:hover{ /* How it looks when you hover with muose */
-	color:blue;
+	color:red;
 }
 
 #current{ 
@@ -31,18 +35,30 @@ nav a:hover{ /* How it looks when you hover with muose */
 }
 
 .container{
-	position:right;
-	width: 78%;
-	margin: -306px 0px 0px 260px; /* top right bottom left */
-	border: 3px black solid; /* border-width border-color border-style*/
+
+
+	width: 1050px;
+	margin: 19px 0px 0px 260px; /* top right bottom left */
+	border: 3px #00FFFF solid; /* border-width border-color border-style*/
+	border-radius: 20px;
+	color: #00FFFF;
+
+
+}
+.right{
+	float:left;
+	clear:left;
+	width: 195px;
+	height: 289px;
+	margin: 19px 0 0px 27px; /* top right bottom left */
+	border: 3px #00FFFF solid; /* border-width border-color border-style*/
 	border-radius: 20px;
 }
 
-.right{
-		position:right;
-	width: 15%;
-	height: 300px;
-	margin: 19px 0 0px 27px; /* top right bottom left */
-	border: 3px black solid; /* border-width border-color border-style*/
-	border-radius: 20px;
+.background{
+	background-image: url("HD BILD.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+} 
+.gif{
 }
