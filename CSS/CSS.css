@@ -16,6 +16,7 @@ nav{
 	margin: 0px 0px 0px 27px; /* top right bottom left */
 	border: 3px #00FFFF solid; /* border-width border-color border-style*/
 	border-radius: 20px;
+	background: rgba(54, 25, 25, .3);
 }
 
 nav a{
@@ -23,7 +24,7 @@ nav a{
 }
 
 nav a:hover{ /* How it looks when you hover with muose */
-	color:red;
+	color:blue;
 }
 
 #current{ 
@@ -42,6 +43,7 @@ position:relative;
 	border: 3px #00FFFF solid; /* border-width border-color border-style*/
 	border-radius: 20px;
 	color: #00FFFF;
+	background: rgba(54, 25, 25, .3);
 
 
 }
