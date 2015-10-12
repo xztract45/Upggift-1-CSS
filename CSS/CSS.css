@@ -11,24 +11,24 @@ h1,h2,h3,h4,h5,h6,p{
 
 nav{
 	float: left;
-		width: 195px;
-	height: 265px;
 	margin: 0px 0px 0px 27px; /* top right bottom left */
-	border: 3px #00FFFF solid; /* border-width border-color border-style*/
 	border-radius: 20px;
+	padding: 0px 50px 0px 50px;
 	background: rgba(54, 25, 25, .3);
+	border: 2px black solid;
 }
 
 nav a{
 	color:#00FFFF;
+	text-decoration: none;
 }
 
 nav a:hover{ /* How it looks when you hover with muose */
 	color:blue;
 }
 
-#current{ 
-	text-decoration:underline;	
+#current{
+	text-decoration: underline; 
 }
 
 .navLink{
@@ -40,10 +40,11 @@ position:relative;
 
 	width: 1050px;
 	margin: 19px 0px 0px 260px; /* top right bottom left */
-	border: 3px #00FFFF solid; /* border-width border-color border-style*/
 	border-radius: 20px;
+	padding: 1px 0px 20px 0px;
 	color: #00FFFF;
 	background: rgba(54, 25, 25, .3);
+	border: 2px black solid;
 
 
 }
@@ -53,10 +54,10 @@ position:relative;
 	width: 195px;
 	height: 288px;
 	margin: 19px 0 0px 27px; /* top right bottom left */
-	border: 3px #00FFFF solid; /* border-width border-color border-style*/
 	border-radius: 20px;
-		background-image: url("GIF.gif");
+	background-image: url("GIF.gif");
 	background-size: 195px 288px;
+	border: 2px black solid;
 }
 
 .background{
