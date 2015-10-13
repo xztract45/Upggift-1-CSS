@@ -30,7 +30,12 @@ nav a:hover{ /* How it looks when you hover with muose */
 #current{
 	text-decoration: underline; 
 }
-
+.DOG{
+padding: 10% 42% 0% 42%;
+}
+.MONSTER{
+background-image: url("GIF.gif");
+}
 .navLink{
 	position:relative;
 }
