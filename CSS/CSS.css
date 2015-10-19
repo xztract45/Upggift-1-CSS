@@ -30,9 +30,6 @@ nav a:hover{ /* How it looks when you hover with muose */
 #current{
 	text-decoration: underline; 
 }
-.DOG{
-padding: 10% 42% 0% 42%;
-}
 .MONSTER{
 background-image: url("GIF.gif");
 }
@@ -64,6 +61,19 @@ position:relative;
 	background-size: 195px 288px;
 	border: 2px black solid;
 }
+.Doge {
+clear: left;
+float: left;
+background-image: url(Doge.jpg);
+width: 255px;
+height: 306px;
+margin: 10% 42% 0% 42%;
+background-size: 255px 306px;
+}
+.Doge:hover{
+background-image: url(dmx.jpg);
+}
+
 
 .background{
 	background-image: url("HD BILD.jpg");
