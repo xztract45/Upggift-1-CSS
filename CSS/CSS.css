@@ -1,5 +1,5 @@
 body {
-	background-color: lightgreen;
+	background-color: black;
 }
 
 h1,h2,h3,h4,h5,h6,p{
@@ -30,8 +30,66 @@ nav a:hover{ /* How it looks when you hover with muose */
 #current{
 	text-decoration: underline; 
 }
-.MONSTER{
-background-image: url("GIF.gif");
+.champ{
+
+}
+
+
+#bg_champ
+{
+	content: " ";
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
+
+.c1
+{
+	width: 25%;
+	height: 25%;
+	overflow: hidden;
+	float:left;
+	background: url(Cena1.gif);
+
+}
+
+.c2
+{
+	width: 25%;
+	height: 25%;
+	overflow: hidden;
+	float:left;
+	background: url(Cena2.gif);
+}
+
+.c3
+{
+	width: 25%;
+	height: 25%;
+	overflow: hidden;
+	float:left;
+	background: url(Cena3.gif);
+}
+
+.c4
+{
+	width: 25%;
+	height: 25%;
+	overflow: hidden;
+	float:left;
+	background: url(Cena4.gif);
+}
+
+.monster{
+	background-image: url("GIF.gif");
+}
+.spooky{
+	background-image: url("Skeltal.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 .navLink{
 	position:relative;
@@ -62,21 +120,41 @@ position:relative;
 	border: 2px black solid;
 }
 .Doge {
-clear: left;
-float: left;
-background-image: url(Doge.jpg);
-width: 255px;
-height: 306px;
-margin: 10% 42% 0% 42%;
-background-size: 255px 306px;
+	clear: left;
+	float: left;
+	background-image: url(Doge.jpg);
+	width: 255px;
+	height: 306px;
+	margin: 10% 42% 0% 42%;
+	background-size: 255px 306px;
 }
 .Doge:hover{
-background-image: url(dmx.jpg);
+	background-image: url(dmx.jpg);
 }
-
+.Cena {
+	clear: left;
+	float: left;
+	background-image: url(dmx.jpg);
+	width: 255px;
+	height: 306px;
+	margin: 10% 42% 0% 42%;
+	background-size: 255px 306px;
+	z-index: 1;
+}
+.Cena:hover{
+	background-image: url(Mr.png);
+}
 
 .background{
 	background-image: url("HD BILD.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 } 
+
+.skeletons1 {
+	background-image: url(skeltal1.gif);
+	background-repeat: no-repeat;
+	height: 400px;
+
+}
+
