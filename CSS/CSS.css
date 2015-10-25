@@ -155,7 +155,7 @@ position:relative;
 	z-index: 1;
 }
 .scary:hover{
-	background-image: url(mr.png);
+	background-image: url(mr.jpg);
 }
 
 .background{
